@@ -1,3 +1,8 @@
+<p align="center">
+  🇺🇸 <a href="README.md"><b>English</b></a> |
+  🇪🇸 <a href="README_ES.md">Español</a>
+</p>
+
 # Simple `ASM` Command
 
 Small shell helper to **assemble, link and run Assembly programs quickly** from the terminal.
