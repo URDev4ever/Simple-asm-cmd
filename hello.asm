@@ -1,5 +1,5 @@
 section .data
-    msg db "Hello, assembly!", 10
+    msg db "Hello, assembly!", 0xA
     len equ $ - msg
 
 section .text
@@ -13,5 +13,5 @@ _start:
     syscall
 
     mov rax, 60
-    mov rdi, 0
+    xor rdi, rdi
     syscall
